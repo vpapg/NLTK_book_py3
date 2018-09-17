@@ -8,4 +8,6 @@ Created on Tue Jun 12 02:06:46 2018
 
 # Write the slice expression that extracts the last two words of text2.
 
+from nltk.book import *
+
 print(text2[-2:])

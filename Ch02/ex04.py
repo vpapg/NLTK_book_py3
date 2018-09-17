@@ -11,6 +11,7 @@ Created on Wed Jun 13 11:30:48 2018
 # What has happened to the usage of these words over time?
 
 from nltk.corpus import state_union
+from nltk import ConditionalFreqDist
 
 text = state_union.words()
 print("Men:", text.count("men"))
@@ -18,7 +19,7 @@ print("Women:", text.count("women"))
 
 Text(text).dispersion_plot(["men", "women"])
 
-cfd = nltk.ConditionalFreqDist(
+cfd = ConditionalFreqDist(
         (target, fileid)
         for fileid in state_union.fileids()
         for w in state_union.words(fileid)
