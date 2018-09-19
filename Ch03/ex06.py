@@ -6,6 +6,18 @@ Created on Fri Jul  6 14:44:53 2018
 @author: vpapg
 """
 
+# Describe the class of strings matched by the following regular expressions.
+#
+#    a. [a-zA-Z]+
+#    b. [A-Z][a-z]*
+#    c. p[aeiou]{,2}t
+#    d. \d+(\.\d+)?
+#    e. ([^aeiou][aeiou][^aeiou])*
+#    f. \w+|[^\w\s]+
+
+#Test your answers using nltk.re_show().
+
+
 import nltk
 
 s = '1 day I\'m going to grow wings. A chemical reaction, hysterical and useless! Let down...'

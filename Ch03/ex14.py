@@ -6,6 +6,8 @@ Created on Fri Jul  6 15:49:16 2018
 @author: vpapg
 """
 
+# Create a variable words containing a list of words. Experiment with words.sort() and sorted(words). What is the difference?
+
 words = ['hello', 'blue', 'yellow', 'stars', 'animals', 'cars', 'why']
 
 print('words:', words)
