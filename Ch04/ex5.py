@@ -18,5 +18,8 @@ print(cmp(5,2), 5>=2)
 print(cmp(2,5), 2>5)
 print(cmp(2,2), 2>=2)
 print(cmp(2,2), 2==2)
+# cmp returns -1,0,1 instead of True, False
+
 
 # or, alternatively, import operator and use eg(), lt(), gt()
+
